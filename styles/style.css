@@ -1,0 +1,345 @@
+/* @import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css"); */
+/* ფონტის ლინკი */
+
+
+
+ /* body{
+  background-color: blanchedalmond;
+ } */
+
+
+
+/* header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(192, 255, 195);
+    font-size: 25x;
+    color:black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0 ;   
+    z-index: 1;
+ }
+
+
+
+ .logo_image{
+   width:80px;
+   margin-left:30px;
+} */
+
+/* .body {
+    width: 100%;
+    background-color: #f3e6d8;
+    padding: 32px 0px;
+    width: 1491 px;
+    height: 1996px;
+}
+b,strong{
+   font-weight: bold;
+  } */
+
+/* .container {  
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1252px;
+  height: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-right: 550px;
+  margin: 0 auto;
+}
+ .container1{
+  width: 1056px;
+  height: 212px;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: #fff5fa;
+  width: 646px;
+  height: 200px;
+  border-radius: 15px;
+  margin-right: 350px;
+  padding: 16px 0px;
+}  */
+/* .container2{
+  width: 1256px;
+  height: 2500px;
+} */
+
+ /* img {
+  width: 1056px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 15px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+} */
+
+/*h1 {
+  margin: bottom 20px; 
+  font-size: 30px;
+  color: #302d2c; 
+  font-weight: bold; 
+  font-family: young serif, serif;
+  margin-right: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  
+.p {
+  width: 912px;
+  height: 80px;
+  font-size: 18px;
+  color:#6b6b6b;
+  padding: 16px 0px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  
+} */
+/* .time{
+  width: 1056px;
+  height: 212px;
+  margin-left: 100px;
+  font-size: 24px;
+  padding: 16px 0px;
+  color: #7b284f;
+  margin-left:10px;
+  font-family: outfit, sans-serif;
+}
+.ingredients {
+  width: 1056px;
+  height: 212px;
+  font-size: 24px;
+  padding: 16px 0px;
+  color: #7b284f;
+  margin-left:10px;
+  font-family: outfit, sans-serif;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* colors */
+  --clr-Stone-100: hsl(30, 54%, 90%);
+  --clr-Stone-150: hsl(30, 18%, 87%);
+  --clr-Stone-600: hsl(30, 10%, 34%);
+  --clr-Stone-900: hsl(24, 5%, 18%);
+  --clr-Brown-800: hsl(14, 45%, 36%);
+  --clr-Rose-800: hsl(332, 51%, 32%);
+  --clr-Rose-50: hsl(330, 100%, 98%);
+  --clr-White: hsl(0, 0%, 100%);
+
+  /* spacing */
+  --space-32: 2rem;
+  --space-24: 1.5rem;
+  --space-16: 1rem;
+  --space-14: 0.875em;
+  --space-12: 0.75em;
+  --space-4: 0.25em;
+
+  /* radius */
+  --radius-12: 0.8rem;
+  --radius-4: 0.25rem;
+
+  /* fonts */
+  --ff-young-serif: "Young Serif", serif;
+  --ff-outfit-serif: "Outfit", sans-serif;
+
+  --fw-light: 400;
+  --fw-medium: 600;
+  --fw-x-bold: 800;
+
+  --fs-8: 0.5rem;
+  --fs-13: 0.8125rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-20: 1.5rem;
+}
+body {
+  background-color: var(--clr-Stone-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-24);
+  min-height: 100vh;
+}
+.main {
+  width: 100%;
+  max-width: 1252px;
+  height: 100%;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-16);
+  background-color: var(--clr-White);
+  border-radius: var(--radius-12);
+  max-width: 23rem;
+  line-height: 1rem;
+  font-size: var(--fs-8);
+  color: var(--clr-Stone-600);
+  gap: 0.9rem;
+}
+
+.Omelette-image {
+  
+  max-width: 350px;
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  border-radius: 15px;
+  margin-left: 5;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-12);
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.recipe-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1rem;
+      font-size: var(--fs-8);
+      margin-bottom: 20px;
+}
+h1,
+h2 {
+  font-family: var(--ff-young-serif);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: var(--fs-20);
+  color: var(--clr-Stone-900);
+}
+h2 {
+  color: var(--clr-Brown-800);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-light);
+}
+h3 {
+  font-family: var(--ff-outfit-serif);
+}
+p {
+  font-family: var(--ff-outfit-serif);
+  line-height: 1.6;
+  color: var(--clr-Stone-600);
+}
+hr {
+  border: none;
+  border-bottom: 0.1rem solid var(--clr-Stone-150);
+}
+.preparation-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--clr-Rose-50);
+  padding: var(--space-14);
+  border-radius: var(--radius-4);
+  font-family: var(--ff-outfit-serif);
+}
+.preparation-time h3 {
+  color: var(--clr-Rose-800);
+}
+ul {
+  list-style-position: inside;
+  font-family: var(--ff-outfit-serif);
+}
+.preparation-time li::marker {
+  color: var(--clr-Rose-800);
+}
+.ingredients h2 {
+  margin-bottom: 0.9rem;
+}
+.ingredients ul li {
+  list-style-type: square;
+}
+.ingredients ul li::marker {
+  color: var(--clr-Brown-800);
+}
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  font-family: var(--ff-outfit-serif);
+}
+ol li::marker {
+  color: var(--clr-Brown-800);
+  font-weight: var(--fw-x-bold);
+}
+
+.Nutrition-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-14);
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-16);
+}
+.label {
+  font-weight: var(--fw-medium);
+  width: 50%;
+  min-width: 100px;
+}
+.value {
+  font-weight: 800;
+  color: var(--clr-Brown-800);
+  padding-left: var(--space-16);
+}
+@media (max-width: 480px) {
+  body {
+    background-color: var(--clr-White);
+    padding: 0;
+    margin: 0;
+  }
+
+  .main {
+    max-width: none;
+    width: 100vw;
+    padding: 0;
+    min-height: 100vh;
+    border-radius: 0;
+  }
+  .Omelette-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0; /* Remove rounded corners on mobile */
+  }
+  .recipe-overview{
+    padding: var(--space-16);
+  }
+}
+
